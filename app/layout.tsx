@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
         <ThemeProvider>
           <header className="sticky top-0 z-10 border-b border-gray-200 bg-white/80 backdrop-blur dark:border-gray-800 dark:bg-gray-950/80">
             <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
-              <nav className="flex gap-3 text-sm">
+              <nav className="flex gap-4 text-sm py-2">
                 <Link href="/" className="hover:underline">
                   Home
                 </Link>
